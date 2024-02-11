@@ -27,7 +27,7 @@ class BirthdayWish :
                 
     
                 
-                if (Hour == 23) and (Minute == 53) and (Second == 0):
+                if (Hour == 20) and (Minute == 0) and (Second == 0):
 
                     with SMTP("smtp.gmail.com") as connection:
                         connection.starttls()
